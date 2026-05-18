@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "classroom-eval-hitl"
+version = "0.1.0"
+description = "Human-in-the-loop classroom evaluation pipeline with semantic uncertainty routing."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Classroom Eval Team"}]
+license = {text = "MIT"}
+keywords = ["education", "human-in-the-loop", "semantic-entropy", "classroom-evaluation"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+classroom-eval = "classroom_eval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

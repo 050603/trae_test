@@ -1,0 +1,9 @@
+{
+  "segments": [
+    {"start": 0.000, "end": 8.200, "speaker": "SPEAKER_00", "text": "同学们，为什么这个实验结果会和预测不同？你怎么想？"},
+    {"start": 8.500, "end": 14.000, "speaker": "SPEAKER_01", "text": "我觉得可能是温度影响了反应速度。"},
+    {"start": 14.200, "end": 20.000, "speaker": "SPEAKER_00", "text": "很好，请解释你观察到的证据。"},
+    {"start": 905.000, "end": 910.000, "speaker": "SPEAKER_00", "text": "现在进入小组讨论，每组尝试提出一个新假设。"},
+    {"start": 911.000, "end": 916.000, "speaker": "SPEAKER_02", "text": "我们可以比较不同材料的结果。"}
+  ]
+}
